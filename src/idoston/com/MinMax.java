@@ -14,7 +14,8 @@ public class MinMax {
     //Variable that holds which letter the computer controls
     int computerLetter;
     ////////////////////
-
+    
+    //Constructor
     public MinMax(int thePlayerLetter) {
         maxDepth = 5; //This is important to get a better decision (more depth, more accurate decision, more time)
         computerLetter = thePlayerLetter;
@@ -98,5 +99,5 @@ public class MinMax {
             }
             return maxMove;
         }
-    }//end max
-}//end class MinMax
+    }
+}

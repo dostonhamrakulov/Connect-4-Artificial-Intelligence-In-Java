@@ -64,5 +64,5 @@ public class Main {
             System.out.println("It's a draw!");
         }
         System.out.println("Game over.");
-    }
-}//end class Main
+    }// end main method
+}//end Main class

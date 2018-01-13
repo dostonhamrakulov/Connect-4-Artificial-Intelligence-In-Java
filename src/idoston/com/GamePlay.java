@@ -36,6 +36,7 @@ public class GamePlay {
         return posisibleMove;
     }//end possibleMove
 
+    ///Today is done 07.12.2018
     //Move used to compare in MinMax algorithm
     public GamePlay moveToCompare(int value) {
         GamePlay moveToCompare = new GamePlay();
