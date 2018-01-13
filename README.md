@@ -1,6 +1,6 @@
 # Doston Hamrakulov
 
-# Connect4 with Artificial Intelligence
+## Connect4 with Artificial Intelligence
 Example of MinMax Algorithm to implement a game.
 
 The project was developed through NetBeans IDE.
@@ -10,7 +10,7 @@ In this application, the user plays against the computer through the console ind
 
 The game finishes when one of the players made a 4-row, 4-column or 4-diagonal. Enjoy it !
 
-## Programming language
+### Programming language
 ```[java]
 // Java 
 ```
@@ -23,3 +23,5 @@ The game finishes when one of the players made a 4-row, 4-column or 4-diagonal. 
 ## Author
 **Doston Hamrakulov**
 >*Computer Systems, Riga Technical University, Riga, Latvia*
+
+
