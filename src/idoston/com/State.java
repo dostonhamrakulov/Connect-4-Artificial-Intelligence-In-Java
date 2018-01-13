@@ -310,9 +310,9 @@ public class State {
         for (int i=0; i<6; i++) {
             for (int j=0; j<7; j++) {
                     if (gameBoard[i][j] == 1) {
-                        System.out.print("| " + "\u001B[34mX" + "\u001B[30m "); //Blue for user
+                        System.out.print("| " + "X "); //Blue for user
                     } else if (gameBoard[i][j] == -1) {
-                        System.out.print("| " + "\u001B[31mO" + "\u001B[30m "); //Red for computer
+                        System.out.print("| " + "O "); //Red for computer
                     } else {
                         System.out.print("| " + "-" + " ");
                     }

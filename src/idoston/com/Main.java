@@ -25,7 +25,7 @@ public class Main {
             switch (theBoard.lastLetterPlayed) {
             //If O played last, then X plays now (blue color)
                 case State.O:
-                    System.out.print("User '\u001B[34mX\u001B[30m' moves.");
+                    System.out.print("User X moves.");
                     try {
                         do {
                             System.out.print("\nSelect a column to drop your piece (1-7): ");
@@ -44,7 +44,7 @@ public class Main {
                 case State.X:
                     GamePlay computerMove = computerPlayer.getNextMove(theBoard);
                     theBoard.makeMove(computerMove.col, State.O);
-                    System.out.println("Computer '\u001B[31mO\u001B[30m' moves on column "+(computerMove.col+1)+".");
+                    System.out.println("Computer O moves on column "+(computerMove.col+1)+".");
                     System.out.println();
                     break;
                 default:
@@ -55,10 +55,10 @@ public class Main {
         //The game has finished because...
         System.out.println();
         if (theBoard.winner == State.X) {
-            System.out.println("User '\u001B[34mX\u001B[30m' wins!");
+            System.out.println("User X wins!");
             System.out.println(theBoard.winningMethod);
         } else if (theBoard.winner == State.O) {
-            System.out.println("Computer '\u001B[31mO\u001B[30m' wins!");
+            System.out.println("Computer O wins!");
             System.out.println(theBoard.winningMethod);
         } else {
             System.out.println("It's a draw!");
